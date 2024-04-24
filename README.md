@@ -1,6 +1,6 @@
 # GroupPaper
 2024年上半年组会论文汇总[[pdf]()]
-- Contrastive Collaborative Filtering for Cold-Start Item Recommendation [[pdf](https://arxiv.org/pdf/2302.02151.pdf)] 
+- Contrastive Collaborative Filtering for Cold-Start Item Recommendation [[pdf](https://arxiv.org/pdf/2302.02151.pdf)]  
   WWW 2023.2 [cold-start item recommedation] 
   通过内容特征和协同特征之间的对比学习，使得内容编码器学习到协同知识，为冷启动提供帮助 
 - Aligning Disstillation For Cold-start Item Recommendation[[pdf](https://dl.acm.org/doi/10.1145/3539618.3591732)] 
