@@ -41,8 +41,8 @@
   ICLR 2024.3 [composed image retrieval (CIR)]  
   针对基于MLP的方法将图片映射成单一token不足以有效表示图像特征的问题，提出了一种新的自适应令牌学习器，它将图像映射到 VL 模型的词嵌入空间中的一个句子, 句子自适应地捕获有区别的视觉信息.  
 - ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation[[pdf](https://arxiv.org/pdf/2308.11131.pdf)]  
-  WWW 2023.8 [LLM RS]
-  提出了一种检索增强的方法增强用户交互序列，结合 Instruction Tuning 实现了对于 Few-shot/Zero-shot 场景下性能提升
-- RecRanker: Instruction Tuning Large Language Model as Ranker for Top-k Recommendation[[pdf](https://arxiv.org/pdf/2312.16018v2.pdf)]
-  WWW 2023.12 [LLM RS]
-  提出了一种用 Pointwise, pairwise 和 Listwise 结合的任务实现 LLM 的 instruction tuning 方法，并在 Prompt 中融合传统 RS 模型的信号。
+  WWW 2023.8 [LLM RS]  
+  提出了一种检索增强的方法增强用户交互序列，结合 Instruction Tuning 实现了对于 Few-shot/Zero-shot 场景下性能提升  
+- RecRanker: Instruction Tuning Large Language Model as Ranker for Top-k Recommendation[[pdf](https://arxiv.org/pdf/2312.16018v2.pdf)]  
+  WWW 2023.12 [LLM RS]  
+  提出了一种用 Pointwise, pairwise 和 Listwise 结合的任务实现 LLM 的 instruction tuning 方法，并在 Prompt 中融合传统 RS 模型的信号。  
