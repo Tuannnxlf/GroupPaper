@@ -45,4 +45,16 @@
   提出了一种检索增强的方法增强用户交互序列，结合 Instruction Tuning 实现了对于 Few-shot/Zero-shot 场景下性能提升  
 - RecRanker: Instruction Tuning Large Language Model as Ranker for Top-k Recommendation [[pdf](https://arxiv.org/pdf/2312.16018v2.pdf)]  
   WWW 2023.12 [LLM RS]  
-  提出了一种用 Pointwise, pairwise 和 Listwise 结合的任务实现 LLM 的 instruction tuning 方法，并在 Prompt 中融合传统 RS 模型的信号。  
+  提出了一种用 Pointwise, pairwise 和 Listwise 结合的任务实现 LLM 的 instruction tuning 方法，并在 Prompt 中融合传统 RS 模型的信号。
+- Aiming at the Target: Filter Collaborative Information for Cross-Domain Recommendation [[pdf](https://arxiv.org/abs/2403.20296)]  
+  SIGIR 2024.3 [cross-domain recommendation]  
+  针对负迁移问题，提出了直接过滤具有目标域用户相似性约束的源域用户协作信息来缓解负迁移
+- Cross-domain Recommendation From Implicit Feedback [[pdf](https://openreview.net/forum?id=wi8wMFuO0H)]  
+  ICLR 2023.9.12 [LLM RS]  
+  提出隐式反馈的跨域推荐，并针对其提出隐式反馈采样负样本，校准因子函数，动态去噪
+- Data-efficient Fine-tuning for LLM-based Recommendation [[pdf](http://arxiv.org/abs/2401.17197)]  
+  SIGIR 2024.1 [LLM finetune for Rec]  
+  针对LLM在推荐系统的finetune成本巨大问题，在数据修建任务下，提出了使用影响分数和努力分数识别高价值样本，构建小型数据集finetune LLM的工作。
+- Disentangling ID and Modality Effects for Session-based Recommendation [[pdf](http://arxiv.org/abs/2404.12969)]  
+  SIGIR 2024.4 [muitymodal Rec]  
+  针对现有多模态推荐系统忽略了id信息和物品模态信息捕捉偏好原理差异（前者是共现，后者是用户的细粒度偏好）的问题，提出了解耦id embedding和模态信息embedding对模型训练影响的多任务训练方法
